@@ -41,7 +41,7 @@ Del lado del servidor, use firebase y la nube de cloudinary para subir imagenes
 ## Project ScreenShot(s)
 
 #### this is how it looks:   
-![alt text](https://imgkub.com/images/2022/03/08/example-masterframework.jpg)
+![alt text](https://imgkub.com/images/2022/03/12/example-journal.jpg)
 
 
 ## Installation and Setup Instructions
