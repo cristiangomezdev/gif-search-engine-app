@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# personal journal app
 
-## Available Scripts
+## journal (react-redux, firebase, cloudinary)  English / Español
 
-In the project directory, you can run:
+#### Journal - React
 
-### `npm start`
+The main objective of this project, is to implement a complete authentication system with google auth. So you can use your own google account to login.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+El objetivo principal de este projecto, es implementar un sistema de autenticacion con google auth. Para que puedas usar tu propia cuenta google para loguearte
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Status
+(finished) // (Terminado)
 
-### `npm test`
+#### about the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is a personal journal, you can post entries with image included, edit section and log or sign up with your own google account.
 
-### `npm run build`
+Este projecto es un diario, se pueden postear nuevas entradas, agregar imagenes y editar. loguearte o registrarte con tu propia cuenta google.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### Front end:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Basically there are 3 routes:
+ - log in section
+ - sign up section
+ - home section where you interact with the personal journal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+you can edit any of the articles, also change the image and delete them as well.
 
-### `npm run eject`
+Basicamente hay 3 rutas:
+ - seccion de logueo
+ - seccion de registro / creacion de cuenta
+ - seccion home donde interactuas con el diario personal
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##### Back end:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+From the server side, is firebase and cloudinary cloud to upload images
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Del lado del servidor, use firebase y la nube de cloudinary para subir imagenes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project ScreenShot(s)
 
-## Learn More
+#### this is how it looks:   
+![alt text](https://imgkub.com/images/2022/03/08/example-masterframework.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation and Setup Instructions
 
-### Code Splitting
+#### Instructions:  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone down this repository. You will need `node` and `npm` installed globally on your machine, switch branch to main.
 
-### Analyzing the Bundle Size
+First you need to do a "npm install" inside every folder to download and set the dependencies and then follow the next instructions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Run mongod.exe and later mongo.exe.
+- Run front end
+- enjoy
+ 
+          
+Installation:
 
-### Making a Progressive Web App
+`npm install`  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+To Start Server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`npm start`  
 
-### Deployment
+## Reflection
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - This project was really important to me, to learn how to do a google auth and redux app.
+  - Implement a log in / sign up system wit react and do the test (unit and integration testing)
+  - Use cloudinary as a cloud to upload new images.
